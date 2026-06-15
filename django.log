@@ -1,0 +1,528 @@
+Watching for file changes with StatReloader
+Secure account access granted to user 27 for /account/
+SECURITY: Ultra-strict context check for account page: /account/
+SECURITY: Perfect validation passed for user henilshingala2462@gmail.com
+"GET /account/ HTTP/1.1" 200 31632
+"GET /static/jewelry/images/logo.png HTTP/1.1" 304 0
+Secure account access granted to user 27 for /account/
+SECURITY: Ultra-strict context check for account page: /account/
+SECURITY: Perfect validation passed for user henilshingala2462@gmail.com
+"GET /account/ HTTP/1.1" 200 31632
+"GET /admin/jewelry/payment/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/jewelry/payment/ HTTP/1.1" 200 3748
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/jewelry/payment/ HTTP/1.1" 302 0
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+/home/henil/Downloads/raivatt/jewelry/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/henil/Downloads/raivatt/jewelry/urls.py changed, reloading.
+Watching for file changes with StatReloader
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+Secure account access granted to user 1 for /account/
+SECURITY: Ultra-strict context check for account page: /account/
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /account/ HTTP/1.1" 200 27836
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /login/ HTTP/1.1" 200 35916
+"POST /login/ HTTP/1.1" 200 49
+"GET / HTTP/1.1" 200 74619
+"GET /static/jewelry/images/bg-poster.jpg HTTP/1.1" 404 1898
+"GET /static/jewelry/images/1.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/2.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/4.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/3.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/6.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/5.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/7.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/8.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/engagement.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/wedding.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/diamond.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/dailywear.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/bis-hallmark.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/customization.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/purity-guarantee.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/certified-diamonds.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/247.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/bgsf.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/Fedex.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/brinks.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/DHL.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/malca-amit.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/Ferrari.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/ups.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/sequel.png HTTP/1.1" 304 0
+Secure account access granted to user 27 for /account/
+SECURITY: Ultra-strict context check for account page: /account/
+SECURITY: Perfect validation passed for user henilshingala2462@gmail.com
+"GET /account/ HTTP/1.1" 200 31632
+Secure account access granted to user 27 for /account/
+SECURITY: Ultra-strict context check for account page: /account/
+SECURITY: Perfect validation passed for user henilshingala2462@gmail.com
+"GET /account/ HTTP/1.1" 200 31632
+"GET /static/jewelry/images/logo.png HTTP/1.1" 200 1359763
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 16383
+Secure account access granted to user 27 for /account/
+SECURITY: Ultra-strict context check for account page: /account/
+SECURITY: Perfect validation passed for user henilshingala2462@gmail.com
+"GET /account/ HTTP/1.1" 200 31632
+"GET /static/jewelry/images/logo.png HTTP/1.1" 200 1359763
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 16383
+Secure account access granted to user 27 for /account/
+SECURITY: Ultra-strict context check for account page: /account/
+SECURITY: Perfect validation passed for user henilshingala2462@gmail.com
+"GET /account/ HTTP/1.1" 200 31632
+Secure account access granted to user 27 for /account/
+SECURITY: Ultra-strict context check for account page: /account/
+SECURITY: Perfect validation passed for user henilshingala2462@gmail.com
+"GET /account/ HTTP/1.1" 200 31632
+"GET /admin/jewelry/payment/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/jewelry/payment/ HTTP/1.1" 200 3748
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/jewelry/payment/ HTTP/1.1" 302 0
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/img/search.svg HTTP/1.1" 304 0
+"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /static/admin/css/base.css HTTP/1.1" 200 22120
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 16383
+/home/henil/Downloads/raivatt/jewelry/views.py changed, reloading.
+Watching for file changes with StatReloader
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
+"GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Watching for file changes with StatReloader
+D:\demo_jwellery\Raivat\venv\lib\site-packages\_distutils_hack\__init__.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 74865
+"GET /static/jewelry/images/bg-poster.jpg HTTP/1.1" 404 1898
+"GET /static/jewelry/images/logo.png HTTP/1.1" 200 1359763
+"GET /static/jewelry/images/1.png HTTP/1.1" 200 184909
+"GET /static/jewelry/images/2.png HTTP/1.1" 200 662040
+"GET /static/jewelry/images/8.png HTTP/1.1" 200 296685
+"GET /static/jewelry/images/3.png HTTP/1.1" 200 498486
+"GET /static/jewelry/images/6.png HTTP/1.1" 200 269827
+"GET /static/jewelry/images/7.png HTTP/1.1" 200 147498
+"GET /static/jewelry/images/4.png HTTP/1.1" 200 263504
+"GET /static/jewelry/images/wedding.png HTTP/1.1" 200 1827666
+"GET /static/jewelry/images/dailywear.png HTTP/1.1" 200 1426684
+"GET /static/jewelry/images/5.png HTTP/1.1" 200 206673
+"GET /static/jewelry/images/engagement.png HTTP/1.1" 200 1892755
+"GET /static/jewelry/images/diamond.png HTTP/1.1" 200 1415372
+"GET /static/jewelry/images/purity-guarantee.png HTTP/1.1" 200 474102
+"GET /static/jewelry/images/bis-hallmark.png HTTP/1.1" 200 127741
+"GET /static/jewelry/images/customization.png HTTP/1.1" 200 352790
+"GET /static/jewelry/images/certified-diamonds.png HTTP/1.1" 200 395671
+"GET /static/jewelry/images/247.png HTTP/1.1" 200 213062
+"GET /static/jewelry/images/bgsf.png HTTP/1.1" 200 2539419
+"GET /static/jewelry/images/DHL.png HTTP/1.1" 200 19452
+"GET /static/jewelry/images/Fedex.png HTTP/1.1" 200 22326
+"GET /static/jewelry/images/malca-amit.png HTTP/1.1" 200 5963
+"GET /static/jewelry/images/ups.png HTTP/1.1" 200 67631
+"GET /static/jewelry/images/Ferrari.png HTTP/1.1" 200 21254
+"GET /static/jewelry/images/brinks.png HTTP/1.1" 200 36014
+"GET /static/jewelry/images/sequel.png HTTP/1.1" 200 177443
+- Broken pipe from ('127.0.0.1', 65485)
+"GET / HTTP/1.1" 200 74865
+"GET /static/jewelry/images/bg-poster.jpg HTTP/1.1" 404 1898
+"GET /static/jewelry/images/logo.png HTTP/1.1" 200 1359763
+"GET /static/jewelry/images/1.png HTTP/1.1" 200 184909
+"GET /static/jewelry/images/6.png HTTP/1.1" 200 269827
+"GET /static/jewelry/images/2.png HTTP/1.1" 200 662040
+"GET /static/jewelry/images/3.png HTTP/1.1" 200 498486
+"GET /static/jewelry/images/4.png HTTP/1.1" 200 263504
+"GET /static/jewelry/images/7.png HTTP/1.1" 200 147498
+"GET /static/jewelry/images/8.png HTTP/1.1" 200 296685
+"GET /static/jewelry/images/5.png HTTP/1.1" 200 206673
+"GET /static/jewelry/images/engagement.png HTTP/1.1" 200 1892755
+"GET /static/jewelry/images/wedding.png HTTP/1.1" 200 1827666
+"GET /static/jewelry/images/diamond.png HTTP/1.1" 200 1415372
+"GET /static/jewelry/images/dailywear.png HTTP/1.1" 200 1426684
+"GET /static/jewelry/images/bis-hallmark.png HTTP/1.1" 200 127741
+"GET /static/jewelry/images/purity-guarantee.png HTTP/1.1" 200 474102
+"GET /static/jewelry/images/certified-diamonds.png HTTP/1.1" 200 395671
+"GET /static/jewelry/images/customization.png HTTP/1.1" 200 352790
+"GET /static/jewelry/images/247.png HTTP/1.1" 200 213062
+"GET /static/jewelry/images/bgsf.png HTTP/1.1" 200 2539419
+"GET /static/jewelry/images/DHL.png HTTP/1.1" 200 19452
+"GET /static/jewelry/images/Fedex.png HTTP/1.1" 200 22326
+"GET /static/jewelry/images/brinks.png HTTP/1.1" 200 36014
+"GET /static/jewelry/images/malca-amit.png HTTP/1.1" 200 5963
+"GET /static/jewelry/images/Ferrari.png HTTP/1.1" 200 21254
+"GET /static/jewelry/images/sequel.png HTTP/1.1" 200 177443
+"GET /static/jewelry/images/ups.png HTTP/1.1" 200 67631
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 16383
+"GET /about/ HTTP/1.1" 200 32042
+- Broken pipe from ('127.0.0.1', 65525)
+"GET /static/jewelry/images/founder.png HTTP/1.1" 200 240849
+"GET /about-lab-groun/ HTTP/1.1" 200 50136
+"GET /static/jewelry/images/daimond1.png HTTP/1.1" 200 73135
+"GET /static/jewelry/images/igi.png HTTP/1.1" 200 80668
+"GET /static/jewelry/images/gjepc.png HTTP/1.1" 200 10515
+"GET /static/jewelry/images/lg.png HTTP/1.1" 200 150446
+"GET /diamond/ HTTP/1.1" 200 156207
+"GET /media/product_images/ROUND_WYeJJBk.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_26BTUc5.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_Ik206xS.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_qHSxcBQ.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_Jw2zliq.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_InhaLsX.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_wSiseXS.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_Tpt6YDf.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_vf3sTY9.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_r3d4FPn.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_na5ArN9.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_zBYwhcQ.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_b7FLxDa.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_NqCE2Z9.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_hKWgrRg.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_169F0mv.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_v5tVGvG.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_XEjaURx.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_kpWklMS.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_jFIzm7Z.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_xSJyeIl.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_0DBnIho.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_NpX0gw0.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_mUr0xjm.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_jtQtyhu.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_fhDWh2k.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_AzRerrj.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_kgiEk8l.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_BUWr96h.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_no0Dbk7.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_LwlAsvH.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_q29BjE0.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_dodEmsD.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_b9X0eog.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_Z5jdgL7.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_PxMc3Ll.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_d1E490x.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_wFm5sNZ.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_pm6UHyJ.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_zIbN3y4.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_Iy3UYXq.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_8oiwu0F.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_nRYVF7e.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_gFEKl1H.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_29oEwwg.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_a4aU54y.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_MJgMpet.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_k0hkCSB.jpg HTTP/1.1" 200 41329
+"GET /media/product_images/ROUND_8cQxYq5.jpg HTTP/1.1" 200 41329
+"GET /diamond/?shape=antique HTTP/1.1" 200 44176
+"GET /diamond/?shape=round HTTP/1.1" 200 156207
+"GET /diamond/?shape=oval HTTP/1.1" 200 44176
+"GET /diamond/?shape=princess HTTP/1.1" 200 44176
+"GET /diamond/?shape=cushion HTTP/1.1" 200 44176
+"GET /diamond/?shape=emerald HTTP/1.1" 200 44176
+"GET /diamond/?shape=marquise HTTP/1.1" 200 44176
+"GET /diamond/?shape=pear HTTP/1.1" 200 44176
+"GET /diamond/?shape=heart HTTP/1.1" 200 44176
+"GET /diamond/?shape=asscher HTTP/1.1" 200 44176
+"GET /diamond/?shape=trillion HTTP/1.1" 200 44176
+"GET /diamond/?shape=square_caution HTTP/1.1" 200 44176
+"GET /diamond/ HTTP/1.1" 200 156207
+"GET /static/jewelry/images/logo.png HTTP/1.1" 304 0
+"GET /diamond/?shape=cushion HTTP/1.1" 200 44176
+"GET /category/ HTTP/1.1" 200 48658
+"GET /collections/?category=Anniversary HTTP/1.1" 200 42493
+"GET /category/ HTTP/1.1" 200 48658
+"GET /collections/?category=rings HTTP/1.1" 200 42475
+"GET /category/ HTTP/1.1" 200 48658
+"GET /collections/?category=necklaces HTTP/1.1" 200 42487
+"GET /category/ HTTP/1.1" 200 48658
+"GET /collections/?category=other HTTP/1.1" 200 42475
+"GET /category/ HTTP/1.1" 200 48658
+"GET /collections/ HTTP/1.1" 200 174206
+"GET /media/product_images/VisionEye_2025-05-31_115725_0000_0BDbBAM.png HTTP/1.1" 200 269827
+"GET /media/product_images/VisionEye_2025-05-31_115725_0000_5ndJvKs.png HTTP/1.1" 200 269827
+"GET /media/product_images/VisionEye_2025-05-31_115725_0000_YrLi91a.png HTTP/1.1" 200 269827
+"GET /media/product_videos/VisionEye_2025-05-31_115726_0000_0z8eRaf.mp4 HTTP/1.1" 200 14299954
+"GET /media/product_videos/VisionEye_2025-05-31_115726_0000_nMiyO8r.mp4 HTTP/1.1" 200 14299954
+"GET /media/product_videos/VisionEye_2025-05-31_115726_0000_jRGQXyy.mp4 HTTP/1.1" 200 14299954
+"GET /contact/ HTTP/1.1" 200 40935
+"GET /signup/ HTTP/1.1" 200 49770
+"GET /static/jewelry/data/country_state_city_full.json HTTP/1.1" 200 3422321
+"GET /forgot-password/ HTTP/1.1" 302 0
+"GET /login/ HTTP/1.1" 200 36162
+"GET /signup/ HTTP/1.1" 200 49770
+"GET /diamond/ HTTP/1.1" 200 156207
+"GET /static/jewelry/images/logo.png HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_WYeJJBk.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_Ik206xS.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_26BTUc5.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_qHSxcBQ.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_wSiseXS.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_Tpt6YDf.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_InhaLsX.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_r3d4FPn.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_Jw2zliq.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_zBYwhcQ.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_vf3sTY9.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_na5ArN9.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_b7FLxDa.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_NqCE2Z9.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_hKWgrRg.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_169F0mv.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_v5tVGvG.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_XEjaURx.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_xSJyeIl.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_kpWklMS.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_0DBnIho.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_jFIzm7Z.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_NpX0gw0.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_kgiEk8l.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_fhDWh2k.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_mUr0xjm.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_BUWr96h.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_jtQtyhu.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_AzRerrj.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_no0Dbk7.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_LwlAsvH.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_q29BjE0.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_d1E490x.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_dodEmsD.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_b9X0eog.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_pm6UHyJ.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_Z5jdgL7.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_wFm5sNZ.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_Iy3UYXq.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_PxMc3Ll.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_zIbN3y4.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_nRYVF7e.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_gFEKl1H.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_29oEwwg.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_8oiwu0F.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_k0hkCSB.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_a4aU54y.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_MJgMpet.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_8cQxYq5.jpg HTTP/1.1" 304 0
+"GET /category/ HTTP/1.1" 200 48658
+"GET /collections/?category=necklaces HTTP/1.1" 200 42487
+"GET /category/ HTTP/1.1" 200 48658
+"GET /collections/?category=women HTTP/1.1" 200 42475
+"GET /category/ HTTP/1.1" 200 48658
+"GET /collections/?category=other HTTP/1.1" 200 42475
+"GET /category/ HTTP/1.1" 200 48658
+"GET /collections/ HTTP/1.1" 200 174206
+"GET /media/product_images/VisionEye_2025-05-31_115725_0000_0BDbBAM.png HTTP/1.1" 304 0
+"GET /media/product_images/VisionEye_2025-05-31_115725_0000_5ndJvKs.png HTTP/1.1" 304 0
+"GET /media/product_images/VisionEye_2025-05-31_115725_0000_YrLi91a.png HTTP/1.1" 304 0
+"GET /media/product_videos/VisionEye_2025-05-31_115726_0000_nMiyO8r.mp4 HTTP/1.1" 304 0
+"GET /media/product_videos/VisionEye_2025-05-31_115726_0000_jRGQXyy.mp4 HTTP/1.1" 304 0
+"GET /media/product_videos/VisionEye_2025-05-31_115726_0000_0z8eRaf.mp4 HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 74869
+"GET /static/jewelry/images/bg-poster.jpg HTTP/1.1" 404 1898
+"GET /static/jewelry/images/logo.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/1.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/2.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/3.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/4.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/5.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/6.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/7.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/8.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/wedding.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/engagement.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/diamond.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/dailywear.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/bis-hallmark.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/purity-guarantee.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/certified-diamonds.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/customization.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/247.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/bgsf.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/DHL.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/Fedex.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/brinks.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/malca-amit.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/sequel.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/Ferrari.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/ups.png HTTP/1.1" 304 0
+"GET /static/jewelry/videos/bg.mp4 HTTP/1.1" 200 24372502
+"GET / HTTP/1.1" 200 74865
+"GET /static/jewelry/images/bg-poster.jpg HTTP/1.1" 404 1898
+"GET /static/jewelry/images/logo.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/1.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/5.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/2.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/6.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/3.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/7.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/engagement.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/wedding.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/4.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/8.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/diamond.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/dailywear.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/bis-hallmark.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/purity-guarantee.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/certified-diamonds.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/customization.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/247.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/bgsf.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/DHL.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/Fedex.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/malca-amit.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/Ferrari.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/brinks.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/ups.png HTTP/1.1" 304 0
+"GET /static/jewelry/images/sequel.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 16383
+"GET /about/ HTTP/1.1" 200 32042
+"GET /static/jewelry/images/founder.png HTTP/1.1" 304 0
+- Broken pipe from ('127.0.0.1', 49722)
+"GET /diamond/ HTTP/1.1" 200 156207
+"GET /media/product_images/ROUND_WYeJJBk.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_26BTUc5.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_Jw2zliq.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_Ik206xS.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_qHSxcBQ.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_wSiseXS.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_Tpt6YDf.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_zBYwhcQ.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_vf3sTY9.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_r3d4FPn.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_InhaLsX.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_NqCE2Z9.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_v5tVGvG.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_169F0mv.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_b7FLxDa.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_hKWgrRg.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_na5ArN9.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_XEjaURx.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_kpWklMS.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_0DBnIho.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_jFIzm7Z.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_xSJyeIl.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_NpX0gw0.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_mUr0xjm.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_jtQtyhu.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_AzRerrj.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_fhDWh2k.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_BUWr96h.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_kgiEk8l.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_LwlAsvH.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_b9X0eog.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_no0Dbk7.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_q29BjE0.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_dodEmsD.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_d1E490x.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_Z5jdgL7.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_wFm5sNZ.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_PxMc3Ll.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_pm6UHyJ.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_zIbN3y4.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_Iy3UYXq.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_gFEKl1H.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_8oiwu0F.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_29oEwwg.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_a4aU54y.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_nRYVF7e.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_k0hkCSB.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_8cQxYq5.jpg HTTP/1.1" 304 0
+"GET /media/product_images/ROUND_MJgMpet.jpg HTTP/1.1" 304 0
+"GET /diamond/?shape=marquise HTTP/1.1" 200 44176
+"GET /category/ HTTP/1.1" 200 48658
+"GET /collections/?category=necklaces HTTP/1.1" 200 42487
+"GET /contact/ HTTP/1.1" 200 40935
+"GET /contact/ HTTP/1.1" 200 40935

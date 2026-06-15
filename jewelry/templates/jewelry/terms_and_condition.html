@@ -1,0 +1,286 @@
+{% extends 'jewelry/base.html' %}
+{% load static %}
+
+{% block title %}Terms and Conditions - Raivat Stones{% endblock %}
+
+{% block extra_css %}
+<style>
+  body {
+    background: linear-gradient(135deg, rgb(0, 25, 50), rgba(0, 37, 64, 0.75), rgba(0, 37, 64, 0.50), rgba(0, 37, 64, 0.75), rgb(0, 25, 50)) !important;
+  }
+
+  .terms-hero {
+    background: linear-gradient(135deg, #002540 0%, #00254080 50%, #002540 100%);
+    color: #fff;
+    padding: 80px 20px 60px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .terms-hero::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: 
+      radial-gradient(circle at 20% 80%, rgba(255,255,255,0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(255,255,255,0.05) 0%, transparent 50%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    background: linear-gradient(360deg, #4079a2 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 4px 30px rgba(0,37,64,0.3);
+    animation: titleGlow 3s ease-in-out infinite alternate;
+    letter-spacing: 2px;
+  }
+
+  @keyframes titleGlow {
+    0% { filter: drop-shadow(0 0 20px rgba(74,144,226,0.3)); }
+    100% { filter: drop-shadow(0 0 30px rgba(74,144,226,0.6)); }
+  }
+
+  .hero-subtitle {
+    font-size: 1.3rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  .terms-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,37,64,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: -50px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .terms-section {
+    margin-bottom: 40px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,37,64,0.1);
+  }
+
+  .terms-section h2 {
+    color: #002540;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #4a90e2;
+    padding-bottom: 10px;
+  }
+
+  .terms-section h3 {
+    color: #002540;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 25px;
+  }
+
+  .terms-section p {
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+  }
+
+  .terms-section ul {
+    margin: 15px 0;
+    padding-left: 20px;
+  }
+
+  .terms-section li {
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+
+  .effective-date {
+    background: linear-gradient(135deg, #4a90e2 0%, #002540 100%);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  .company-info {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-left: 5px solid #4a90e2;
+  }
+
+  .highlight-box {
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    border: 2px solid #4a90e2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .highlight-box h4 {
+    color: #002540;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+    
+    .terms-content {
+      padding: 40px 15px;
+      margin-top: -30px;
+    }
+    
+    .terms-section {
+      padding: 20px 15px;
+    }
+    
+    .terms-section h2 {
+      font-size: 1.5rem;
+    }
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<section class="terms-hero">
+  <div class="hero-content">
+    <h1 class="hero-title">Terms and Conditions</h1>
+    <p class="hero-subtitle">Please read these terms carefully before using our services</p>
+  </div>
+</section>
+
+<div class="terms-content">
+  <div class="effective-date">
+    Effective Date: 15.08.2025
+  </div>
+
+  <div class="terms-section">
+    <p><strong>Welcome To Raivat Stones!</strong> These Terms and Conditions Govern Your Use Of Our Website, Services, And Purchases. By Accessing Or Using Our Site, You Agree To Be Bound By These Terms.</p>
+  </div>
+
+  <div class="terms-section company-info">
+    <h2>1. General Information</h2>
+    <p>This Website Is Owned And Operated By <strong>Raivat Stones</strong>, A Company Registered In Surat, Gujarat, India With A Business Address At:</p>
+    <p><strong>6/1441 4th Floor 401 Nirmal Bhavan Tobha Sheri Mahidharpura Surat Gujarat India 395003.</strong></p>
+  </div>
+
+  <div class="terms-section">
+    <h2>2. Eligibility</h2>
+    <p>By Using This Website, You Confirm That You Are At Least 18 Years Of Age And Legally Capable Of Entering Into Binding Contracts.</p>
+    <ul>
+      <li>Provide Accurate, Complete, And Correct Information When Placing An Order</li>
+    </ul>
+  </div>
+
+  <div class="terms-section">
+    <h2>3. Products And Services</h2>
+    <p>We Offer A Variety Of Gold And Diamond Jewellery Products, And Also Certified And Loose Diamonds. All Items Are Subject To Availability And We Reserve The Right To Limit Quantities Or Discontinue Any Product.</p>
+    
+    <div class="highlight-box">
+      <h4>We Offer:</h4>
+      <ul>
+        <li>Loose diamonds</li>
+        <li>Certified Diamonds IGI / GIA</li>
+        <li>Diamond Jewellery</li>
+        <li>Custom-Designed Diamond Pieces</li>
+      </ul>
+    </div>
+    
+    <p>All Certified Diamonds Will Be Accompanied By The Relevant Grading Report From Recognized Gemological Laboratories. We Do Not Alter Or Tamper With Any Certification.</p>
+  </div>
+
+  <div class="terms-section">
+    <h2>4. Custom Orders</h2>
+    <p>Custom-Made Diamond Or Jewellery Is Made To Order And:</p>
+    <ul>
+      <li>Is Non-Refundable And Non-Cancellable After Confirmation.</li>
+      <li>May Take 1-2 Weeks For Production</li>
+      <li>Will Only Begin After Full Payment And Design Approval.</li>
+    </ul>
+  </div>
+
+  <div class="terms-section">
+    <h2>5. Pricing And Payment</h2>
+    <p>For Prices You Can Just Send Inquiry On Your Selected Product And In 10 Min Our Team Will Be In Touch With You To Fullfill Your Order. We Accept Payments Through Cash, Credit/Debit Card, Net Banking, Upi, PayPal, Wise Etc.. Full Payment Must Be Received Before An Order Is Processed. Any Applicable Taxes, Duties, Or Shipping Fees Will Be Added To Your Total During Checkout.</p>
+  </div>
+
+  <div class="terms-section">
+    <h2>6. Order Confirmation And Cancellation</h2>
+    <p>You Will Receive An Order Confirmation Email/Phone Upon Placing An Order. We Reserve The Right To Cancel Or Refuse Any Order For Any Reason, Including But Not Limited To Product Unavailability, Errors In Pricing Or Description, Or Suspected Fraud. Cancellation Requests Must Be Made Within 1-2 Days Of Placing The Order.</p>
+  </div>
+
+  <div class="terms-section">
+    <h2>7. Shipping And Delivery</h2>
+    <p>Delivery Time Vary By Location. Estimated Delivery Time Will Be Provided On Email/Phone After Order Placed. We Are Not Responsible For Delays Caused By Shipping Providers Or Customs Procedures. Ensure That Your Delivery Information Is Correct We Are Not Liable For Orders Delivered To Incorrect Addresses.</p>
+    <p>We Offer Domestic And International Shipping Through Trusted Logistics Partners. Delivery Time Are Estimated And Not Guaranteed. All Shipments Are Insured During Transit. You Are Responsible For Any Customs Duties Or Import Taxes In Your Country.</p>
+  </div>
+
+  <div class="terms-section">
+    <h2>8. Returns And Exchanges</h2>
+    <p>Returns Are Accepted Within 7 days Of Delivery For Eligible Items. Custom Or Engraved Orders Is Non-Returnable. Returned Items Must Be Unused And In Original Packaging, Accompanied By The Original Receipt Or Proof Of Purchase. Refunds Will Be Issued After Inspection Of The Returned Product And May Take 5-7 Business Days To Process.</p>
+  </div>
+
+  <div class="terms-section">
+    <h2>9. Intellectual Property</h2>
+    <p>All Product On This website Including Images, Text, And Designs, Is The Intellectual Property Of Raivat Stones And Unauthorized Use Is Strictly Prohibited.</p>
+  </div>
+
+  <div class="terms-section">
+    <h2>10. Privacy Policy</h2>
+    <p>Please Refer To Our <a href="{% url 'policies' %}" style="color: #4a90e2; text-decoration: underline;">Privacy Policy</a> To Understand How We Collect, Use, And Protect Your Personal Data.</p>
+  </div>
+
+  <div class="terms-section">
+    <h2>11. Limitation of Liability</h2>
+    <p>We Are Not Liable For Any Direct, Indirect, Incidental, Or Consequential Damages That May Arise From Your Use Of This Website Or Purchase Of Our Products, Except As Required By Law.</p>
+  </div>
+
+  <div class="terms-section">
+    <h2>12. Indemnification</h2>
+    <p>You Agree To Indemnify And Hold Raivat Stones Harmless From Any Claims, Liabilities, Damages, And expenses Arising From Your Use Of The Website Or Breach Of These Terms.</p>
+  </div>
+
+  <div class="terms-section">
+    <h2>13. Governing Law</h2>
+    <p>These Terms Are Governed By The Laws Of Surat, Gujarat, India, Without Regard To Its Conflict Of Law Principles. Any Disputes Shall Be Subject To The Exclusive Jurisdiction Of The Courts Located In Surat, Gujarat, India.</p>
+  </div>
+
+  <div class="terms-section">
+    <h2>14. Amendments</h2>
+    <p>We May Update These Terms At Any Time. Changes Will Be Posted On This Page With A Revised "Effective Date." Continued Use Of The Website Constitutes Your Acceptance Of Any Updates.</p>
+  </div>
+</div>
+{% endblock %}
