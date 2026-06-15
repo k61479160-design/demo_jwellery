@@ -185,3 +185,7 @@ SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
 SECURITY: Admin user info.raivatstones@gmail.com blocked from website context
 "GET /admin/jewelry/payment/ HTTP/1.1" 200 13136
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Watching for file changes with StatReloader
+D:\demo_jwellery\Raivat\venv\lib\site-packages\_distutils_hack\__init__.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
