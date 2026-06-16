@@ -6,15 +6,24 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# -----------------------------
+# SECURITY
+# -----------------------------
+SECRET_KEY = os.getenv('SECRET_KEY', 'change-this-secret-key')
 
+DEBUG = False
 
-SECRET_KEY = os.getenv('SECRET_KEY', 'your-secret-key')
+ALLOWED_HOSTS = os.getenv(
+    'ALLOWED_HOSTS',
+    '127.0.0.1,localhost,.onrender.com'
+).split(',')
 
-DEBUG = True
+# Render HTTPS support
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost,raivatstones.com,www.raivatstones.com').split(',')
-
-
+# -----------------------------
+# APPS
+# -----------------------------
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -25,20 +34,28 @@ INSTALLED_APPS = [
     'jewelry',
 ]
 
+# -----------------------------
+# MIDDLEWARE
+# -----------------------------
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
     'jewelry.middleware.AuthenticationEnforcementMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'Raivat.urls'
 
+# -----------------------------
+# TEMPLATES
+# -----------------------------
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -58,21 +75,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Raivat.wsgi.application'
 
-
-# Security Settings
-SECURE_SSL_REDIRECT = False
-SECURE_HSTS_SECONDS = 31536000  # 1 year
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
-SECURE_BROWSER_XSS_FILTER = True
-SECURE_CONTENT_TYPE_NOSNIFF = True
-X_FRAME_OPTIONS = 'DENY'
-CSRF_COOKIE_SECURE = False
-SESSION_COOKIE_SECURE = False
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-WHITENOISE_ROOT = BASE_DIR / 'staticfiles'
-
+# -----------------------------
+# DATABASE
+# -----------------------------
 DATABASES = {
     'default': {
         'ENGINE': os.getenv('DB_ENGINE', 'django.db.backends.sqlite3'),
@@ -84,130 +89,90 @@ DATABASES = {
     }
 }
 
-# Cache settings
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
-        'LOCATION': 'unique-snowflake',
-    }
-}
-
-# Logging configuration
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'console': {
-            'class': 'logging.StreamHandler',
-        },
-        'file': {
-            'class': 'logging.FileHandler',
-            'filename': BASE_DIR / 'django.log',
-        },
-    },
-    'root': {
-        'handlers': ['console', 'file'],
-        'level': 'INFO',
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['console', 'file'],
-            'level': os.getenv('DJANGO_LOG_LEVEL', 'INFO'),
-            'propagate': False,
-        },
-    },
-}
-
-# File upload settings
-FILE_UPLOAD_MAX_MEMORY_SIZE = 262144000  # 250MB
-DATA_UPLOAD_MAX_MEMORY_SIZE = 262144000  # 250MB
-FILE_UPLOAD_PERMISSIONS = 0o644
-
-
+# -----------------------------
+# AUTH
+# -----------------------------
 AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
+    {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
+    {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator'},
+    {'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator'},
+    {'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator'},
 ]
 
-
+# -----------------------------
+# INTERNATIONALIZATION
+# -----------------------------
 LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
-
 USE_TZ = True
 
-
+# -----------------------------
+# STATIC FILES (RENDER READY)
+# -----------------------------
 STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 STATICFILES_DIRS = [
-    BASE_DIR /"jewelry" / "static",
+    BASE_DIR / "jewelry" / "static",
 ]
-print(BASE_DIR)
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-# STATIC_ROOT = BASE_DIR / "staticfiles"
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+# -----------------------------
+# MEDIA FILES
+# -----------------------------
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+# -----------------------------
+# DEFAULT AUTO FIELD
+# -----------------------------
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-
+# -----------------------------
+# LOGIN SETTINGS
+# -----------------------------
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
+# -----------------------------
+# SESSION SETTINGS
+# -----------------------------
 SESSION_COOKIE_AGE = 86400
-SESSION_COOKIE_SECURE = False
+SESSION_COOKIE_SECURE = True
 SESSION_COOKIE_HTTPONLY = True
 SESSION_COOKIE_SAMESITE = 'Lax'
-SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 SESSION_SAVE_EVERY_REQUEST = True
 
-# Email Configuration - Gmail with less secure apps
+# -----------------------------
+# EMAIL (ENV VARIABLES ONLY)
+# -----------------------------
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'info.raivatstones@gmail.com'
-EMAIL_HOST_PASSWORD = 'Raivat@123'
-DEFAULT_FROM_EMAIL = 'Raivat Stone <info.raivatstones@gmail.com>'
 
-EMAIL_USE_SSL = False
-EMAIL_TIMEOUT = 60
-EMAIL_USE_LOCALTIME = True
+EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
 
-EMAIL_HEADERS = {
-    'X-Priority': '1',
-    'X-MSMail-Priority': 'High',
-    'Importance': 'high',
-    'X-Mailer': 'Raivat Stone System v2.0',
-            'List-Unsubscribe': '<mailto:info.raivatstones@gmail.com?subject=unsubscribe>',
-    'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
-    'Precedence': 'bulk',
-    'X-Auto-Response-Suppress': 'OOF, AutoReply',
-    'Auto-Submitted': 'auto-generated',
-    'X-Report-Abuse': 'Please report abuse here: info.raivatstones@gmail.com',
-    'X-Feedback-ID': 'password-reset:raivat-stone',
-    'X-Campaign': 'password-reset',
-    'X-Entity-Ref-ID': 'password-reset-otp',
-            'Reply-To': 'info.raivatstones@gmail.com',
-        'Organization': 'Raivat Stone',
-}
+DEFAULT_FROM_EMAIL = os.getenv(
+    'DEFAULT_FROM_EMAIL',
+    'Raivat Stone <info.raivatstones@gmail.com>'
+)
 
-EMAIL_VERIFICATION_REQUIRED = True
-OTP_EXPIRY_MINUTES = 10
+# -----------------------------
+# PAYMENT KEYS (ENV ONLY)
+# -----------------------------
+RAZORPAY_KEY_ID = os.getenv('RAZORPAY_KEY_ID')
+RAZORPAY_KEY_SECRET = os.getenv('RAZORPAY_KEY_SECRET')
 
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY')
 
-RAZORPAY_KEY_ID = os.getenv('RAZORPAY_KEY_ID', 'rzp_live_R9zStHV4rRUtN6')
-RAZORPAY_KEY_SECRET = os.getenv('RAZORPAY_KEY_SECRET', 'YeT1SnXLXJn1bElH8mfdKOTP')
+# -----------------------------
+# SECURITY HEADERS
+# -----------------------------
+SECURE_BROWSER_XSS_FILTER = True
+SECURE_CONTENT_TYPE_NOSNIFF = True
+X_FRAME_OPTIONS = 'DENY'
